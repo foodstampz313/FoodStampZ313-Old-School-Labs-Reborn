@@ -1,42 +1,43 @@
-FoodStampZ313's Old School Labs Reborn
+# FoodStampZ313's Old School Labs Reborn
 
-Brings back the glory days of Labs by restoring unlimited-use colored access cards, rebalancing old-school keycard values, and offering optional configurable Labs economy tweaks.
+SPT 4.x rebuild of the Old School Labs Reborn concept.
 
-FEATURES
+## Features
 
-• Unlimited Use Colored Labs Keycards
-  - Red Keycard
-  - Black Keycard
-  - Green Keycard
-  - Blue Keycard
-  - Yellow Keycard
-  - Violet Keycard
+- Gives colored Labs keycards effectively unlimited uses by setting `MaximumNumberOfUsage` to a configurable high value.
+- Applies configurable old-school prices to the colored Labs keycards.
+- Keeps the configuration in `config/config.json`.
 
-• Restored Old-School Keycard Economy
-Each colored keycard has configurable handbook/flea values to bring back that rare and prestigious Labs loot feeling.
+## Install for users
 
-• Fully Configurable
-Every major feature can be adjusted inside:
-config/config.json
+Install the compiled release folder into:
 
-INSTALLATION
+```text
+SPT/user/mods/FoodStampZ313s_Old_School_Labs_Reborn/
+```
 
-1. Download the mod.
-2. Extract the folder.
-3. Place the folder inside:
-   SPT/user/mods/
-4. Start your SPT server.
+The compiled release must contain the DLL and config file. This source package must be built before it is a playable release.
 
-COMPATIBILITY
+## Build
 
-Built for SPT 4.x
-Server-side only
-Should work with most mods unless another mod directly overwrites the same keycard item values or prices.
+1. Install .NET 9 SDK.
+2. Open this project in Visual Studio or Rider.
+3. Restore NuGet packages.
+4. Build in Release mode.
+5. Copy the folder from:
 
+```text
+bin/Release/FoodStampZ313s.OldSchoolLabsReborn/FoodStampZ313s.OldSchoolLabsReborn/
+```
 
-Inspired by the original Old Colored Keycards concept by MrFums.
-Rebuilt and expanded for modern SPT.
+into:
 
-DISCLAIMER
+```text
+SPT/user/mods/
+```
 
-This mod is not affiliated with Battlestate Games. Escape from Tarkov and all related assets are property of Battlestate Games.
+## Credits
+
+- FoodStampZ313 — concept, packaging, release/testing.
+- OpenAI ChatGPT — technical framework assistance.
+- MrFums / Old Colored Keycards — original concept inspiration only; no original files were used.

@@ -1,0 +1,16 @@
+{
+  "enableUnlimitedUses": true,
+  "unlimitedUsesValue": 999999,
+  "enablePriceChanges": true,
+  "enableSpawnBuffs": false,
+  "enableTherapistSales": false,
+  "loggerPrefix": "FoodStampZ313 Labs Reborn",
+  "keycards": {
+    "5c1d0c5f86f7744bb2683cf0": { "name": "Blue", "price": 8000000 },
+    "5c1d0efb86f7744baf2e7b7b": { "name": "Red", "price": 25000000 },
+    "5c1d0dc586f7744baf2e7b79": { "name": "Green", "price": 12000000 },
+    "5c1d0f4986f7744bb01837fa": { "name": "Black", "price": 18000000 },
+    "5c1e495a86f7743109743dfb": { "name": "Violet", "price": 10000000 },
+    "5c1d0d6d86f7744bb2683e1f": { "name": "Yellow", "price": 9000000 }
+  }
+}
