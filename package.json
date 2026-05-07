@@ -1,9 +1,0 @@
-{
-  "name": "FoodStampZ313s_Old_School_Labs_Reborn",
-  "version": "1.0.0",
-  "main": "src/mod.js",
-  "author": "FoodStampZ313",
-  "license": "MIT",
-  "sptVersion": "~4.0",
-  "description": "Restores unlimited-use colored Labs keycards, configurable old-school pricing, and optional Labs economy tweaks."
-}
